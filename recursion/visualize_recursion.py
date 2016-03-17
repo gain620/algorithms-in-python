@@ -18,7 +18,7 @@ def drawSpiral(turtle, lineLen):
 
 def drawTree(tree, branchLen):
     if branchLen > 5:
-    	time.sleep(1)
+    	time.sleep(0.1)
     	tree.forward(branchLen)
     	tree.right(20)
     	drawTree(tree, branchLen - 10)
